@@ -11,6 +11,7 @@ import LightModeIcon from '@mui/icons-material/LightMode'
 import DarkModeIcon from '@mui/icons-material/DarkMode'
 import SettingsBrightnessIcon from '@mui/icons-material/SettingsBrightness'
 import Box from '@mui/material/Box'
+
 function ModeSelect() {
   const { mode, setMode } = useColorScheme()
   const handleChange = (event) => {
@@ -49,11 +50,8 @@ function ModeSelect() {
         </MenuItem>
       </Select>
     </FormControl>
-  );
+  )
 }
-
-
-
 
 function App() {
   return (
